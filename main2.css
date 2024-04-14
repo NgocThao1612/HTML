@@ -1,0 +1,36 @@
+.title{ color: aqua;} /*vd1*/
+.title.heading{ color: blueviolet;} /* viết tr sau gì cũng đc thêm thì cứ chấm r ghi tiếp (vd2) */ 
+.box .title{ color: brown;} /*vd3*/
+*{font-size: 20px;} /*vd4*/
+h2{color: #7fff00;} /*vd5*/
+h2.one{color: cadetblue;} /*vd6*/
+/*vd7*/ /*cách 1*/
+.three1{ font-style: italic;}
+.three2{text-decoration: line-through;}
+.three3{text-decoration: underline;}
+.three1, .three2, .three3 {color: darkblue;}
+/*cách 2*/
+.three1{ font-style: italic;}
+.three2{text-decoration: line-through;}
+.three3{text-decoration: underline;}
+.redflag{color: rgb(218, 218, 46);}
+/*vd7*/
+/*vd8 tựa vd3*/
+.live > .fi {color: darkmagenta;} /*vd9 có cẩ trong giấy*/
+.a + .a { color: red;} /*vd10*/
+.b ~ .b { text-decoration: underline ;} /*vd11*/
+/*vd12*/
+:root {--text-color: #7fff00;}
+h1 {color: var(--text-color);}
+/*vd12*/
+/*vd13, thực hành hàm rgba*/
+.box-1 {
+    width: 300px;
+    height: 300px;
+    background-color: green;
+}
+.box-2 {
+    width: 50%;
+    height: 50%;
+    background-color:rgba(0, 0, 0, 0.5);
+}
